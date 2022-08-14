@@ -2,6 +2,8 @@
 
 :root{
     --primary-color: #f2c94c;
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -25,15 +27,20 @@ h1{
     padding-left: 1rem;;
 }
 
-.container{
-    padding: 2rem;
-    
+img{
+    padding-top: 2rem;
+    width: 90%;
 }
 
-.container .container-child{
-   padding:2rem;
+.container{
+    padding: 2rem;
+    display: flex;
+    margin: 2rem;
+}
+
+.container-child{
+   padding:1rem;
    width:50%;
-   
 }
 
 
@@ -74,6 +81,7 @@ footer{
     bottom: 0 ;
     padding: 1rem;
     text-align: center;
+    width: 100%;
 }
 
 footer p{
